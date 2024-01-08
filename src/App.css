@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.custom-container{
+  width: 100vw;
+  position:absolute;
+  top:0;
+  left:0;
+  min-height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

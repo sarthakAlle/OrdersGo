@@ -1,0 +1,42 @@
+.custom-card {
+  background-color: #ddd;
+  color: black;
+  margin: 20px;
+  margin-top: 40px;
+  width: 18rem;
+  border-radius: 30px;
+}
+
+.price-button {
+  text-decoration: none;
+  background-color: #ff0074;
+  width: 140px;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.price-button:hover {
+  color: white;
+}
+
+.quantity {
+  margin-left: 10px;
+  width: 40px;
+}
+
+select {
+  color: black;
+  border-radius: 10px;
+  width: 60px;
+  background-color: peachpuff;
+  height: 30px;
+  margin: 20px;
+}
+
+@media screen and (max-width:682px) {
+  .custom-card {
+    margin: 1vw auto;
+  }
+}
